@@ -1,6 +1,6 @@
 body {
   background: black;
-  font-family: "Edu QLD Hand", cursive;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,10 +13,8 @@ body {
   justify-items: center;
   align-items: center;
   background: #fff;
-  width: 400px;
-  height: 600px;
-  margin: 0;
-  padding: 0;
+  width: 500px;
+  height: 640px;
 }
 
 .encabezado {
@@ -25,61 +23,44 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.encabezado img {
-  width: 20px;
-}
 
 .logo{
-  width: 20%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0; 
+}
+.fa-html5{
+  font-size: 2rem;
+}
 
+.titulo{
+  display: flex;
+  flex-direction: column;
+}
+.titulo p{
+  margin: 0;
+}
+
+.fa-ellipsis-vertical{
+  font-size: 2rem;
 }
 
 .img-post img{
   width: 100%;
 }
 
-.cuerpo {
+.iconos{
+  width: 95%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .parrafos {
-  width: 285px;
-  padding: 0 1rem;
-}
-
-form {
-  width: 290px;
-}
-
-.entrada {
-  width: 93%;
-}
-
-.entrada {
-  border: none;
-  border-bottom: #929090b9 solid 2px;
-  font-size: 1rem;
-  font-family: "Edu QLD Hand", cursive;
-  color: #929090b9;
-  height: 25px;
-  margin-top: 0.5rem;
-}
-
-button {
-  height: 40px;
-  background: #acabab;
-  font-family: "Edu QLD Hand", cursive;
-  font-size: 1rem;
-  border-bottom: #929090b9 solid 2px;
-}
-
-button:hover{
-  background: #dfc2c29f;
-  color: rgba(0, 81, 255, 0.795);
-  cursor: pointer;
-  border: none;
-  margin: 0.2rem;
+  padding: 1.2rem;
+  text-align: justify;
+  margin-top: -1.5rem;
 }
