@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Tarjeta Postal</title>
+    <title>Post Instagram</title>
+     <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/fontawesome-free/css/fontawesome.min.css">
     <link
-      href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -13,24 +15,37 @@
   <body>
     <main class="contenedor">
       <div class="encabezado">
-        <h1>My Postcard</h1>
-        <img src="images/4geeks.png" alt="logo" />
+        <div class="logo">
+          <img src="images/logopeq.png" alt="logo" />
+          <div class="titulo">
+            <strong>HTML5</strong>
+            <p>R@0</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
       </div>
-
+      <div class="img-post">
+        <img src="images/paisaje.jpg" alt="paisaje" />
+      </div>
+      <div class="iconos">
+        <div class="icon-der">
+          <i class="fa-regular fa-comment"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-paper-plane"></i>
+        </div>
+        <div class="icon-izq">
+          <i class="fa-regular fa-bookmark"></i>
+        </div>        
+      </div>
       <div class="cuerpo">
         <div class="parrafos">
           <p>
-            Look how awesone! This is a postcard that | created using HTML5 and
-            CSS3 during my 4Geeks Academy Course!
+            Licked by 4GeeksAcademy, html5, web and 100,000 others
           </p>
-          <p>this is so cool, can't wait to start doing more stuff!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia eos obcaecati quo, ea soluta, porro exercitationem perferendis accusamus sequi iure molestiae qui dolores reprehenderit? Minima optio voluptatem commodi quae numquam?
+          </p>
         </div>
-
-        <form action="">
-          <input class="entrada" type="text" value="Some Name" />
-          <input class="entrada" type="email" value="Some Emai" />
-          <input class="entrada" type="text" value="Some comment" />
-        </form>
       </div>
 
       <button>Send My Postcard</button>
