@@ -1,0 +1,47 @@
+body {
+  background: rgba(214, 211, 211, 0.685);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+}
+
+.tarjeta{
+  background: #d4d0d0;
+  margin-bottom: 2rem;
+}
+
+.tarjeta img{
+  width: 100%;
+
+}
+
+.tarjeta p{
+  margin: 1rem;
+  text-align: justify;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.titulo h2{
+  font-size: 1rem;
+}
+
+.border{
+  border-top: 1px solid #f0ecec57;
+  margin-bottom: 4rem;
+}
