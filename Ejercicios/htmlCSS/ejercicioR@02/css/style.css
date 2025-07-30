@@ -1,6 +1,6 @@
 body {
   background: rgba(214, 211, 211, 0.685);
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +39,11 @@ body {
 
 .titulo h2{
   font-size: 1rem;
+}
+
+.titulo p{
+  color: #6d6868;
+  font-size: 0.8rem;
 }
 
 .border{
